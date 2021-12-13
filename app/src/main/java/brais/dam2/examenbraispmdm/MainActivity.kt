@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        for (numero in 100..0){
+        for (numero in 100 downTo 0){
             Log.i("cuenta regresiba", numero.toString())
         }
         val bToast: Button =findViewById(R.id.bToast)
